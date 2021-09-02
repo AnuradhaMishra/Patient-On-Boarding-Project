@@ -1,0 +1,71 @@
+<div><img class="logo" alt="Healthcare-Logo" src="./assets/Healthcare_Logo_Short.png" width="190" />
+    <h1>HEALTHCARE</h1>
+</div>
+<br>
+<div>
+    <div class="navigation-bar">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="" class="navtext">Home</a>
+        &nbsp;&emsp;&nbsp;
+        <ul class="no-bullets">
+            <li>
+        <a href="login.html" class="navtext">Login</a>
+            <ul class="no-bullets">
+                    <li class="loginList"><a href="patient-login" class="loginhover"> As Patient </a></li>
+                    <li class="loginList"><a href="doctor-login" class="loginhover"> As Doctor </a></li>
+            </ul>
+        </li>
+        </ul>
+        &nbsp;&emsp;&nbsp;
+        <a href="signup" class="navtext">Sign Up</a>
+        &nbsp;&emsp;&nbsp;
+        <a href="about-app" class="navtext">About App</a>
+        &nbsp;&emsp;&nbsp;
+        <a href="aboutdev.html" class="navtext">About Us</a>
+        &nbsp;&emsp;&nbsp;
+        <a href="contact.html" class="navtext">Contact Us</a>
+        &nbsp;&emsp;&nbsp;
+        <button onclick="location.href ='https://www.cowin.gov.in/';" class="vaccine">Click Here for
+            Vaccination</button>
+        </div>
+</div>
+<br>
+<h2 class="welcomeh2">Doctor Login</h2>
+
+<div class="container">
+    <form action="login.html" method="POST" onsubmit="return validate()" class="form-control-lg was-validated">
+        <div class="form-group row loginstyle">
+            <!-- <table class="loginForm"> -->
+            <div class="form-group col-md-5 col-mb-6"></div>
+            <div class="form-group col-md-5 col-mb-6">
+                <!-- <tr> -->
+                <label for="doctorId">Doctor Id&emsp;</label>
+                <input type="number" class="form-control" name="doctorId" id="doctorId" required>
+                <div class="invalid-feedback" id="invDId">
+                    Please enter Doctor Id. It should be numeric only.
+                </div>
+                <!-- </tr> -->
+            </div>
+            <div class="form-group col-md-5 col-mb-6"></div>
+            <div class="form-group col-md-5 col-mb-6">
+                <!-- <tr> -->
+                <label for="password">Password&emsp;</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+                <div class="invalid-feedback" id="invPass">
+                    Password is a required field. It can be alphanumeric.
+                </div>
+                <!-- </tr> -->
+            </div>
+            <!-- <tr style="height: 15px;"></tr> -->
+            <div class="form-group col-md-5 col-mb-6"></div>
+            <div class="form-group col-md-5 buttons" align=center>
+                <button type="submit" class="btn-lg btn-success">Submit</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset" class="btn-lg btn-info">Clear</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<footer class="copyfooter">&copy; 2021 Healthcare | All Rights Reserved</footer>
