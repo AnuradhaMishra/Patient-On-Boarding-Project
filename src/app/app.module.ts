@@ -13,6 +13,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { PatientLoginSuccessComponent } from './components/patient-login-success/patient-login-success.component';
 import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
 import { OrderMedicinesComponent } from './components/order-medicines/order-medicines.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { OrderMedicinesComponent } from './components/order-medicines/order-medi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
