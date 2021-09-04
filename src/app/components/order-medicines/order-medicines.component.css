@@ -117,7 +117,6 @@ h1 {
 	top: 20px;
     text-align: center;
     text-decoration: #ff9696 underline overline;
-    /* border: 3px #ff9696 dotted; */
 } 
 
 .logo {
@@ -146,6 +145,7 @@ h1 {
 .welcomeh2 {
     /* color: #03989e; */
     font-family: 'Arial Black';
+    text-align: center;
 }
 
 .welcomeservice p, .welcomeservice ul {
@@ -181,6 +181,16 @@ h1 {
     /* background: ; */
     color: #c9e265;
 }
+.userpassword {
+	font-family: "Lucida calligraphy";
+	color: #ffbd59;
+	font-size: 20px;
+}
+
+/* .loginstyle {
+    text-align: center;
+} */
+
 .copyfooter {
 
     text-align: center;
@@ -189,6 +199,25 @@ h1 {
     color: #000;
     font-family: Arial;
     /* font-weight: bold; */
+    position: relative;
+    top: 800px;
 
 
+}
+
+.appointment-card{
+    text-align: center;
+    background-color: powderblue;
+    border-radius: 20px;
+    color: darkslategray;
+    width: 250px;
+    height: 45vh;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-shadow: 5px 10px #888888;
+}
+h6{
+    font-size: 20px;
 }

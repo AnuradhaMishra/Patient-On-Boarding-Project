@@ -11,6 +11,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { AboutAppComponent } from './components/about-app/about-app.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { PatientLoginSuccessComponent } from './components/patient-login-success/patient-login-success.component';
+import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
+import { OrderMedicinesComponent } from './components/order-medicines/order-medicines.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PatientLoginSuccessComponent } from './components/patient-login-success
     AboutUsComponent,
     AboutAppComponent,
     ContactUsComponent,
-    PatientLoginSuccessComponent
+    PatientLoginSuccessComponent,
+    BookAppointmentComponent,
+    OrderMedicinesComponent,
   ],
   imports: [
     BrowserModule,
